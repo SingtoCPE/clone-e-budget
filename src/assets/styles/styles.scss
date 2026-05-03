@@ -1,0 +1,29 @@
+// Write your overrides
+.table_header_grey {
+  thead {
+    background-color: #26293A !important;
+    tr {
+      th{
+        color: white !important;
+      }
+    }
+  }
+}
+
+.details_icon {
+  &:hover {
+    color: #8b81fc !important;
+  }
+}
+
+.edit_icon {
+  &:hover {
+    color: #24B364 !important;
+  }
+}
+
+.delete_icon {
+  &:hover {
+    color: #E64449 !important;
+  }
+}
