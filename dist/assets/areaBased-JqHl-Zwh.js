@@ -1,0 +1,1 @@
+import{a as t}from"./wrapperApi-DiWQXfBr.js";const n=()=>({getList:()=>t.get("/area-based"),getById:e=>t.get(`/area-based/${e}`),create:e=>t.post("/area-based",e),edit:(e,a)=>t.put(`/area-based/${e}`,a),remove:e=>t.delete(`/area-based/${e}`)});export{n as u};

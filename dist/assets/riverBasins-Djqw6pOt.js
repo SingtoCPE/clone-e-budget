@@ -1,0 +1,1 @@
+import{a as s}from"./wrapperApi-DiWQXfBr.js";const v=()=>({getList:()=>s.get("/river-basins"),getById:e=>s.get(`/river-basins/${e}`),create:e=>s.post("/river-basins",e),edit:(e,t)=>s.put(`/river-basins/${e}`,t),remove:e=>s.delete(`/river-basins/${e}`)});export{v as u};

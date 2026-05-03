@@ -1,0 +1,1 @@
+import{a as e}from"./wrapperApi-DiWQXfBr.js";const p=()=>({getList:()=>e.get("/royal-initiative-types"),getById:t=>e.get(`/royal-initiative-types/${t}`),create:t=>e.post("/royal-initiative-types",t),edit:(t,i)=>e.put(`/royal-initiative-types/${t}`,i),remove:t=>e.delete(`/royal-initiative-types/${t}`)});export{p as u};

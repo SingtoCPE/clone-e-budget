@@ -1,0 +1,1 @@
+import{a as o}from"./wrapperApi-DiWQXfBr.js";const c=()=>({getList:()=>o.get("/organizations"),getById:t=>o.get(`/organizations/${t}`),create:t=>o.post("/organizations",t),edit:(t,e)=>o.put(`/organizations/${t}`,e),remove:t=>o.delete(`/organizations/${t}`)});export{c as u};

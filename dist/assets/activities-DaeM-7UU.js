@@ -1,0 +1,1 @@
+import{a as e}from"./wrapperApi-DiWQXfBr.js";const n=()=>({getList:()=>e.get("/activities"),getById:t=>e.get(`/activities/${t}`),create:t=>e.post("/activities",t),edit:(t,i)=>e.put(`/activities/${t}`,i),remove:t=>e.delete(`/activities/${t}`)});export{n as u};

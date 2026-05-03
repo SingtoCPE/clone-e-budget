@@ -1,0 +1,1 @@
+import{a as t}from"./wrapperApi-DiWQXfBr.js";const d=()=>({getList:()=>t.get("/budget-categories"),getById:e=>t.get(`/budget-categories/${e}`),create:e=>t.post("/budget-categories",e),edit:(e,g)=>t.put(`/budget-categories/${e}`,g),remove:e=>t.delete(`/budget-categories/${e}`)});export{d as u};

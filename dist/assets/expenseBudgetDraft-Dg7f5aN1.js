@@ -1,0 +1,1 @@
+import{a as t}from"./wrapperApi-DiWQXfBr.js";const p=()=>({getList:()=>t.get("/expense-budget-draft"),getById:e=>t.get(`/expense-budget-draft/${e}`),create:e=>t.post("/expense-budget-draft",e),edit:(e,s)=>t.put(`/expense-budget-draft/${e}`,s),remove:e=>t.delete(`/expense-budget-draft/${e}`)});export{p as u};

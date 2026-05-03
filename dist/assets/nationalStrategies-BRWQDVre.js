@@ -1,0 +1,1 @@
+import{a as e}from"./wrapperApi-DiWQXfBr.js";const c=()=>({getList:()=>e.get("/national-strategies"),getById:t=>e.get(`/national-strategies/${t}`),create:t=>e.post("/national-strategies",t),edit:(t,a)=>e.put(`/national-strategies/${t}`,a),remove:t=>e.delete(`/national-strategies/${t}`)});export{c as u};

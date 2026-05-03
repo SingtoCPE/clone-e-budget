@@ -1,0 +1,1 @@
+import{bM as o}from"./index-B_OMg9s-.js";const i=o("loading",{state:()=>({count:0}),getters:{isLoading:t=>t.count>0},actions:{start(){this.count++},stop(){this.count>0&&this.count--}}});export{i as u};
